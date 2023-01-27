@@ -36,6 +36,18 @@
                         }
                         break;
                     case 3:
+                        String[] array1 = { "Baghel", "Cat", "English", "Vishwas", "Name", "Apple" };
+                        InsertionSort sorting = new InsertionSort();
+                        sorting.Sorting(array1);
+                        sorting.DisplayArray(array1);
+                        break;
+                    case 4:
+                        int[] array2 = { 56, 36, 98, 45, 12, 78, 49, 99 };
+                        BubbleSort.BubbleSorting(array2);
+                        Console.WriteLine("Sorted array");
+                        BubbleSort.DisplayArray(array2);
+                        break;
+                    case 5:
                         end = false;
                         break;
                     default:
@@ -45,3 +57,4 @@
             }
         }
     }
+}
